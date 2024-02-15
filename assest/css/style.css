@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    background-color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+    .headerContent{
+        background-image: url('/assest/img/Header_Background.png');
+        display: flex;
+        background-position: top center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+    }
+
+.headerContent h1{
+    width: 313px;
+    height: 112px;
+    text-align: center;
+    color: white;
+    font-family: "Luckiest Guy", cursive;
+    font-size: 56px;
+    padding-bottom: 30px;
+    padding: 40px;
+}
+
+.headerContent p{
+    width: 757px;
+    height: 66px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: "Open Sans" ;
+}
+
+.headerContent .buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding-top: 24px;
+    padding-bottom: 60px;
+}
+
+.headerContent .buttons .bt01{
+    width: 205px;
+    height: 44px;
+    border-radius: 28px;
+}
+
+.headerContent .buttons .bt02{
+    width: 281px;
+    height: 44px;
+    border-radius: 28px;
+    background-color: black;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#section1{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#section2{
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#section3{
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#section4{
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    align-items: center;
+    padding:  40px, 0px, 40px, 0px;
+}
+
+.sectionImg1 img{ 
+    max-width:  100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.sectionText h1{
+    width: 329px;
+    height: 100%;
+    top: 10px;
+    left: 623px;
+    font-size: 2.2rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.sectionText p{
+    width: 348px;
+    height: 88px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif; 
+    font-weight: 400px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.sectionText1 h1{
+    width: 100%;
+    height: 80px;
+    font-family: "Luckiest Guy", cursive;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.sectionText1 p{
+    width: 802px;
+    height: 44px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center; 
+}   
+
+.sectionText1 img{
+    max-width: 100%;
+    max-height: 508px;
+    width: auto;
+    height: auto;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#23272A;
+}
+
+.discord{
+    width: 100%;
+    height: 63px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 376px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 375px;
+        height: 100%;
+    }
+
+    .headerContent{
+        display: flex;
+        background-position: top center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+    }
+
+    .headerContent h1{
+        width: 278px;
+        height: 64px;
+        text-align: left;
+        font-size: 32px;
+        padding-bottom: 30px;
+        padding: 40px 0 20px 20px;
+    }
+
+    .headerContent p{
+        width: 325px;
+        height: 132px;
+        text-align: left;
+        color: white;
+        font-size: 16px;
+        font-family: "Open Sans" ; 
+    }
+
+    .headerContent .buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding-top: 24px;
+        padding-bottom: 60px;
+    }
+
+    .headerContent .buttons .bt01{
+        width: 281px;
+        height: 44px;
+        border-radius: 28px;
+    }
+
+    #section1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #section2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #section3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionText1 p{
+        width: 360px;
+        height: 132px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center; 
+    }   
+
+    .sectionText1 h1{
+        width: 278px;
+        height: 64px;
+        font-size: 32px;
+        text-align: left;
+        padding-top: 40px;
+    }
+}
