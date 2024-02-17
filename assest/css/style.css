@@ -14,7 +14,7 @@ header{
 }
 
     .headerContent{
-        background-image: url('./assest/img/Header_Background.png');
+        background-image: url('../assest/img/Header_Background.png');
         display: flex;
         background-position: top center;
         flex-direction: column;
