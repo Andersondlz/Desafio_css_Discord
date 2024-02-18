@@ -67,6 +67,11 @@ header{
     cursor: pointer;
 }
 
+.headerContent .buttons .bt01:active{
+    background-color: firebrick;
+    color: bisque;
+}
+
 .headerContent .buttons .bt02{
     width: 281px;
     height: 44px;
@@ -79,6 +84,11 @@ header{
     background-color: darkgray;
     color: black;
     cursor: pointer;
+}
+
+.headerContent .buttons .bt02:active{
+    background-color: firebrick;
+    color: bisque;
 }
 
 main{
