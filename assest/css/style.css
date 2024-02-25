@@ -69,7 +69,7 @@ header{
 }
 
 .headerContent .buttons .bt01:active{
-    transform: translate(10px, 10px);
+    transform: translate(4px, 4px);
     background-color: firebrick;
     color: bisque;
 }
