@@ -65,11 +65,11 @@ header{
     background-color: chartreuse;
     color: cadetblue;
     cursor: pointer;
-    transform: translate(4px 4px);
+    transform: translate(4px, 4px);
 }
 
 .headerContent .buttons .bt01:active{
-    transform: translate(10px 10px);
+    transform: translate(10px, 10px);
     background-color: firebrick;
     color: bisque;
 }
